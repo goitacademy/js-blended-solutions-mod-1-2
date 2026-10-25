@@ -31,7 +31,7 @@ function calculateDiscount(subtotal, isPremium) {
   // Ще один варіант
   // if (subtotal >= 1000 && isPremium) {
   //   totalDiscount = subtotal * 0.1;
-  // } else if (subtotal <= 1000 && isPremium) {
+  // } else if (subtotal < 1000 && isPremium) {
   //   totalDiscount = subtotal * 0.05;
   // }
 
